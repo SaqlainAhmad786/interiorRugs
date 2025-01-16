@@ -1,0 +1,68 @@
+@import ('~lucide-static/font/Lucide.css');
+
+:root {
+    --navyBlue: #133E87;
+    --blue: #608BC1;
+    --lightBlue: #CBDCEB;
+    --cream: #F3F3E0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+html {
+    /* scroll-behavior: smooth; */
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ptSerif {
+    font-family: 'PT Serif', serif !important;
+}
+
+.customContainer {
+    max-width: 1200px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* .splide .splide__arrow svg {
+    fill: rgba(255, 255, 255, 0.8);
+} */
+
+#headerSlider1 .splide__arrow {
+    background: transparent;
+
+    & svg {
+        fill: rgba(255, 255, 255, 0.8);
+    }
+}
+
+#headerSlider2 .splide__arrow {
+    background: transparent;
+
+    & svg {
+        fill: var(--blue);
+    }
+}
+
+#heroSlider .splide__pagination__page {
+    background-color: var(--cream);
+}
+
+#heroSlider .splide__pagination__page.is-active {
+    background-color: var(--blue);
+}
+
+@media screen and (max-width: 768px) {
+    .customContainer {
+        width: 90%;
+    }
+}
