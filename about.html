@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us | Interior Rugs</title>
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:regular,italic,700,700italic" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <script src="./assets/js/script.js" defer></script>
+    <script src="./assets/js/splideSlider.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="py-2 px-3 bg-navyBlue flex gap-2 justify-between">
+            <div class="text-sm text-white flex-1">
+                <div class="flex gap-4">
+                    <div class="flex gap-3 lg:block md:block sm:hidden hidden">
+                        <a href="#" class="hover:underline font-medium">FAQs</a>
+                        <a href="#" class="hover:underline font-medium">Contact</a>
+                    </div>
+                    <div id="headerSlider1" class="splide flex-1">
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide text-center">Slide 1</li>
+                                <li class="splide__slide text-center">Slide 2</li>
+                                <li class="splide__slide text-center">Slide 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flex gap-2 items-center">
+                        <a href="#" target="_blank"><i data-lucide="facebook" class="h-5"></i></a>
+                        <a href="#" target="_blank"><i data-lucide="instagram" class="h-5"></i></a>
+                        <a href="#" target="_blank"><i data-lucide="twitter" class="h-5"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:block md:block sm:hidden hidden">
+                <div class="dropdown dropdown-end">
+                    <div tabindex="0" role="button" class="text-white text-sm">English</div>
+                    <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
+                        <li><a>Item 1</a></li>
+                        <li><a>Item 2</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown dropdown-end">
+                    <div tabindex="0" role="button" class="text-white text-sm">USD$</div>
+                    <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
+                        <li><a>Item 1</a></li>
+                        <li><a>Item 2</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar bg-base-100">
+            <div class="navbar-start">
+                <a class="#">
+                    <img src="./assets/images/main-logo.png" class="lg:h-20 md:h-20 sm:h-20 h-16" alt="">
+                </a>
+            </div>
+            <div class="navbar-center">
+                <div class="gap-6 text-sm font-semibold lg:flex md:flex sm:hidden hidden">
+                    <a href="#">Best Seller</a>
+                    <a href="#">Hand Knotted Rugs</a>
+                    <a href="#">Hand Tuffed Rugs</a>
+                    <a href="#">Hand Woven</a>
+                    <a href="#">Care guide</a>
+                    <a href="#">About us</a>
+                    <a href="#">Contact us</a>
+                </div>
+            </div>
+            <div class="navbar-end">
+                <button class="btn btn-ghost btn-circle">
+                    <i data-lucide="search" class="w-5 h-5"></i>
+                </button>
+                <button class="btn btn-ghost btn-circle">
+                    <div class="indicator">
+                        <i data-lucide="shopping-cart" class="w-5 h-5"></i>
+                    </div>
+                </button>
+                <button class="btn btn-ghost btn-circle">
+                    <div class="indicator">
+                        <i data-lucide="heart" class="w-5 h-5"></i>
+                        <span class="badge badge-xs badge-secondary indicator-item"></span>
+                    </div>
+                </button>
+                <button class="btn btn-ghost btn-circle lg:block md:block sm:hidden hidden">
+                    <div class="indicator">
+                        <i data-lucide="user" class="w-5 h-5"></i>
+                        <!-- <span class="badge badge-xs badge-primary indicator-item"></span> -->
+                    </div>
+                </button>
+                <div class="drawer w-auto lg:hidden md:hidden sm:inline-block inline-block">
+                    <input id="my-drawer" type="checkbox" class="drawer-toggle" />
+                    <div class="drawer-content px-3">
+                        <label for="my-drawer" class="drawer-button"><i data-lucide="menu" class="w-5 h-5"></i></label>
+                    </div>
+                    <div class="drawer-side z-[999]">
+                        <label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./products.html">Hand Knotted Rugs</a></li>
+                        <li><a href="./products.html">Hand Tuffed Rugs</a></li>
+                        <li><a href="./products.html">Hand Woven Rugs</a></li>
+                        <li><a href="./careGuide.html">Care guide</a></li>
+                        <li><a href="./about.html">About us</a></li>
+                        <li><a href="./contact.html">Contact us</a></li>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="customContainer">
+            <div class="bg-white my-10 p-8 rounded-lg shadow-md">
+                <div class="grid lg:grid-cols-2 gap-12 mx-auto">
+                    <div class="text-left">
+                        <h1 class="text-navyBlue text-3xl font-bold mb-6">Interior Rugs: Infusing Warmth and Style into
+                            Every Space</h1>
+                        <p class="mb-4 text-sm text-gray-500">Welcome to Interior Rugs! We believe every space deserves
+                            the perfect blend of comfort and elegance that only a beautifully designed rug can provide.
+                        </p>
+                        <p class="mb-4 text-sm text-gray-500">Born from a deep passion for design and quality, Teppich
+                            Homes curates an exceptional collection of area rugs that cater to diverse styles and
+                            preferences. Whether you're seeking a bold statement piece or a subtle touch of
+                            sophistication, we have something to match your vision.</p>
+                        <p class="text-sm text-gray-500">At Interior Rugs, we focus on more than just aesthetics. We
+                            partner with skilled artisans and trusted manufacturers who prioritize sustainability and
+                            meticulous craftsmanship. Each rug in our collection is thoughtfully created to elevate your
+                            home's ambiance while offering enduring quality that withstands the test of time.</p>
+                        <p class="text-sm text-gray-500">Discover how Interior Rugs can transform your living spaces
+                            into warm, stylish havens.</p>
+                    </div>
+                    <div>
+                        <img src="https://readymadeui.com/management-img.webp" alt="Placeholder Image"
+                            class="rounded-lg object-contain w-full h-full" />
+                    </div>
+                </div>
+            </div>
+            <div class="my-10">
+                <div class="px-6 py-8 bg-white rounded-lg shadow-md">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+                        <div class="max-h-80">
+                            <img src="https://readymadeui.com/management-img.webp" alt="Image"
+                                class="rounded-md object-cover w-full h-full" />
+                        </div>
+                        <div>
+                            <h2 class="text-3xl font-extrabold text-navyBlue mb-4">Our Story</h2>
+                            <p class="text-gray-600 text-sm leading-6">
+                                At Interior Rugs, exceptional customer service isn't just a promise—it's our passion. We
+                                are dedicated to exceeding your expectations, ensuring that every step of your journey
+                                with us is seamless and satisfying.
+                            </p>
+                            <p class="text-gray-600 text-sm leading-6">
+                                Our team is here to help you discover the perfect rug that reflects your unique style,
+                                meets your needs, and enhances your home's ambiance. Whether you're transforming your
+                                living room into a chic sanctuary, creating a cozy corner for relaxation, or adding a
+                                touch of refined elegance to your space, Interior Rugs is here to guide you.
+                            </p>
+                            <p class="text-gray-600 text-sm leading-6">
+                                Let us help bring your vision to life, one beautifully crafted rug at a time.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="my-10 rounded-lg shadow-md overflow-hidden">
+                <div
+                    class="overflow-hidden bg-[url(https://akm-img-a-in.tosshub.com/indiatoday/images/story/202412/carpet-122127960-16x9_0.jpg?VersionId=L5MhiEvCrvoa5GN6MlGX9S19PoQYGg5l&size=690:388)] bg-cover bg-top bg-no-repeat">
+                    <div class="bg-black/50 p-8 md:p-12 lg:px-16 lg:py-24">
+                        <div class="text-center ltr:sm:text-left rtl:sm:text-right">
+                            <h3 class="text-2xl font-bold text-white sm:text-3xl md:text-5xl">Our Mission</h3>
+                            <p class="hidden text-gray-300 md:mt-6 md:block">
+                                At Interior Rugs, we strive to lead our industry with innovation, integrity, and
+                                purpose.
+                                Our goal is to set the benchmark for excellence while serving as a driving force for
+                                creating both economic and humanitarian value for all our stakeholders.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center py-8 px-4">
+                    <h4 class="text-2xl font-semibold text-navyBlue mb-3">Giving Back to Our Community</h4>
+                    <div class="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-8">
+                        <div>
+                            <img class="rounded-lg"
+                                src="https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/homecentre/1000010267290-1000010267289_01-2100.jpg"
+                                alt="">
+                            <p class="font-semibold text-lg my-2 text-navyBlue">Our People</p>
+                            <p class="text-sm">The soul of our work lies in the hands of skilled artisans who craft each
+                                rug with care
+                                and precision. At Interior Rugs, we prioritize fair wages, safe working conditions, and
+                                opportunities for growth. By collaborating directly with these talented individuals, we
+                                honor their artistry and contribute to uplifting their communities, ensuring a
+                                meaningful and lasting impact.</p>
+                        </div>
+                        <div>
+                            <img class="rounded-lg"
+                                src="https://www.kuberindustries.co.in/uploads/kuberindustries/products/kuber-industries-carpet--velvet-floor-mat--carpet-for-hall--carpet-for-living-room--carpet-for-bedro-4022560172952524_l.jpg"
+                                alt="">
+                            <p class="font-semibold text-lg my-2 text-navyBlue">Our Clients</p>
+                            <p class="text-sm">The soul of our work lies in the hands of skilled artisans who craft each
+                                rug with care
+                                and precision. At Interior Rugs, we prioritize fair wages, safe working conditions, and
+                                opportunities for growth. By collaborating directly with these talented individuals, we
+                                honor their artistry and contribute to uplifting their communities, ensuring a
+                                meaningful and lasting impact.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="px-4 divide-y bg-blueClr">
+        <div class="customContainer flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
+            <div class="lg:w-1/3">
+                <a rel="noopener noreferrer" href="#" class="flex justify-center space-x-3 lg:justify-start">
+                    <div class="flex items-center justify-center w-12 h-12 rounded-full bg-violet-400">
+                        <img src="./assets/images/main-logo.png" alt="">
+                    </div>
+                    <span class="self-center text-navyBlue text-2xl font-semibold">Interior Rugs</span>
+                </a>
+            </div>
+            <div class="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
+                <div class="space-y-3">
+                    <h6 class="tracking-wide uppercase text-gray-50 font-medium">Products</h6>
+                    <ul class="space-y-1 text-gray-200">
+                        <li>
+                            <a rel="noopener noreferrer" href="#">Features</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" href="#">Integrations</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" href="#">Pricing</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" href="#">FAQ</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="space-y-3">
+                    <h3 class="tracking-wide uppercase text-gray-50 font-medium">Company</h3>
+                    <ul class="space-y-1 text-gray-200">
+                        <li>
+                            <a rel="noopener noreferrer" href="#">Privacy</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" href="#">Terms of Service</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="space-y-3">
+                    <h3 class="uppercase text-gray-50 font-medium">Developers</h3>
+                    <ul class="space-y-1 text-gray-200">
+                        <li>
+                            <a rel="noopener noreferrer" href="#">Public API</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" href="#">Documentation</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" href="#">Guides</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="space-y-3">
+                    <div class="uppercase text-gray-50 font-medium">Social media</div>
+                    <div class="flex justify-start space-x-2">
+                        <a rel="noopener noreferrer" href="#" title="Facebook" class="flex items-center p-1">
+                            <i data-lucide="facebook" class="w-6 h-6 text-navyBlue"></i>
+                        </a>
+                        <a rel="noopener noreferrer" href="#" title="Twitter" class="flex items-center p-1">
+                            <i data-lucide="twitter" class="w-6 h-6 text-navyBlue"></i>
+                        </a>
+                        <a rel="noopener noreferrer" href="#" title="Instagram" class="flex items-center p-1">
+                            <i data-lucide="instagram" class="w-6 h-6 text-navyBlue"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="py-6 customContainer text-sm text-center text-gray-300">© 2025 Interior Rugs | All rights reserved.
+        </div>
+    </footer>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navyBlue: '#133E87',
+                        blueClr: '#608BC1',
+                        lightBlue: '#CBDCEB',
+                        cream: '#F3F3E0'
+                    }
+                }
+            }
+        }
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
