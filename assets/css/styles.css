@@ -76,6 +76,32 @@ input[type=number] {
     background-color: var(--blue);
 }
 
+.thumbnailProductDetailSlider .swiper-button-prev {
+    top: 20px;
+    rotate: 90deg;
+    left: 40px;
+    background-color: white;
+    border-radius: 100vh;
+
+    &::after {
+        color: var(--blue);
+        font-size: 24px;
+    }
+}
+
+.thumbnailProductDetailSlider .swiper-button-next {
+    top: 380px;
+    rotate: 90deg;
+    left: 40px;
+    background-color: white;
+    border-radius: 100vh;
+
+    &::after {
+        color: var(--blue);
+        font-size: 24px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .customContainer {
         width: 90%;

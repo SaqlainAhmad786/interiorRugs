@@ -1,13 +1,22 @@
 document.addEventListener('DOMContentLoaded', function () {
+    // Initialize Splide sliders only if the corresponding element exists
+    const initializeSlider = (selector, options) => {
+        const element = document.querySelector(selector);
+        if (element) {
+            new Splide(selector, options).mount();
+        }
+    };
 
-    new Splide('#headerSlider1', {
+    // Header Slider 1
+    initializeSlider('#headerSlider1', {
         type: 'loop',
         perPage: 1,
         autoplay: true,
-        pagination: false
-    }).mount();
+        pagination: false,
+    });
 
-    new Splide('#headerSlider2', {
+    // Header Slider 2
+    initializeSlider('#headerSlider2', {
         type: 'loop',
         perPage: 4,
         autoplay: true,
@@ -19,19 +28,21 @@ document.addEventListener('DOMContentLoaded', function () {
             },
             768: {
                 perPage: 1,
-            }
-        }
-    }).mount();
+            },
+        },
+    });
 
-    new Splide('#heroSlider', {
+    // Hero Slider
+    initializeSlider('#heroSlider', {
         type: 'loop',
         perPage: 1,
         autoplay: true,
         arrows: false,
         pagination: false,
-    }).mount();
+    });
 
-    new Splide('#newArrivalSlider', {
+    // New Arrival Slider
+    initializeSlider('#newArrivalSlider', {
         type: 'loop',
         perPage: 4,
         autoplay: false,
@@ -40,20 +51,21 @@ document.addEventListener('DOMContentLoaded', function () {
         breakpoints: {
             1200: {
                 perPage: 3,
-                arrows: true
+                arrows: true,
             },
             800: {
                 perPage: 2,
-                arrows: true
+                arrows: true,
             },
             600: {
                 perPage: 1,
-                arrows: true
-            }
-        }
-    }).mount();
+                arrows: true,
+            },
+        },
+    });
 
-    new Splide('#testimonialSlider', {
+    // Testimonial Slider
+    initializeSlider('#testimonialSlider', {
         type: 'loop',
         perPage: 1,
         gap: '1rem',
@@ -62,13 +74,11 @@ document.addEventListener('DOMContentLoaded', function () {
         pagination: false,
         breakpoints: {
             1024: {
-                perPage: 2
+                perPage: 2,
             },
             768: {
-                perPage: 1
-            }
-        }
-    }).mount();
-
+                perPage: 1,
+            },
+        },
+    });
 });
-
